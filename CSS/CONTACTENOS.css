@@ -1,0 +1,176 @@
+body {
+    background: #e8e8e8;
+}
+html, body {
+    height: 95%;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: #ff94a2;
+    max-width: 950px;
+    margin: auto;
+}
+
+.logo {
+    padding: 0px;
+    max-height: 35;
+    
+}
+
+.enlace {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    font-family: "Pacifico";
+    font-size: 1.25rem;
+}
+
+.menu li {
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    transition: opacity 1s;
+}
+
+.menu li a:hover {
+    background: #ff7987;
+    cursor: pointer;
+    color: #ffbb77;
+    opacity: 1;
+
+}
+
+section {
+    min-height: calc(80% - 4rem);
+}
+/*code del baner*/
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+.baner {
+    background-color: #f19d9d;
+    border-radius: 0.5rem;
+    display: block;
+    width: 1300PX;
+    height: 150px;
+    margin: 10px;
+    background-image: url(/LOGO/banner4.jpeg);
+    text-align: center;
+}
+h1 {
+    font-family: "Pacifico";
+    font-size: 3rem;
+    color: #ec4f4f;
+    background-color: #f5c4c4;
+}
+/* esto es para el mostrador de contactos */
+.ventana {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    width: 100%;
+    margin: 0 0;
+}
+
+.contact {
+    transition: all 0.3s ease;
+    background-color: #f19d9d;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    display: block;
+    width: 400PX;
+    height: 450px;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+.redes {
+    width: 400px;
+}
+
+td {
+    text-align: center;
+    height: 80px;
+    font-family: "Pacifico";
+    color: #e8e8e8;
+    background-color: #ff7987;
+    border-radius: 0.25rem;
+}
+
+td a {
+    font-family: "Pacifico";
+    color: #e8e8e8;
+    background-color: #ff7987;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    background-color: #f19d9d;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    display: block;
+    width: 450PX;
+    height: 450px;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+.mapa {
+    text-align: center;
+    font-family: "Pacifico";
+    color: #e8e8e8;
+    text-decoration: none;
+}
+
+/*Pie de pagina*/
+footer {
+    background-color: #f67a7a;
+    padding: 25px;
+    height: 4rem;
+    color: #fff;
+    font-family: "Pacifico";
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    justify-content: space-between;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+    position: absolute;
+    left: 1;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
+.producto img {
+    transition: all 2s ease;
+}

@@ -1,0 +1,133 @@
+body {
+    background: #e8e8e8;
+}
+html, body {
+    height: 95%;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: #ff94a2;
+    max-width: 950px;
+    margin: auto;
+}
+
+.logo {
+    padding: 0px;
+    max-height: 35;
+}
+
+.enlace {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    font-family: "Pacifico";
+    font-size: 1.25rem;
+}
+
+.menu li {
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    transition: opacity 1s;
+}
+
+.menu li a:hover {
+    background: #ff7987;
+    cursor: pointer;
+    color: #ffbb77;
+    opacity: 1;
+
+}
+
+div {
+    min-height: calc(100% - 4rem);
+}
+
+/* esto es para el mostrador */
+.fila {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.columna {
+    transition: all 0.3s ease;
+    background-color: #f19d9d;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    display: block;
+    width: 300px;
+    height: 450px;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+.puesto {
+    transition: all 0.3s ease;
+    background-color: #f19d9d;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    display: block;
+    width: 400pX;
+    height: 450px;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px;
+}
+.circulo {
+    background-color: #f19d9d;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    display: block;
+    width: 500px;
+    height: 100px;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    font-family: "Pacifico";
+    color: #ff0000;
+}
+h1 {    
+    font-family: "Pacifico";
+    color: #000000;
+}
+/*Pie de pagina*/
+footer {
+    background-color: #f67a7a;
+    padding: 2rem;
+    color: #fff;
+    font-family: "Pacifico";
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
